@@ -4,8 +4,8 @@ def fizzbuzz():
         if i % 15 == 0:
             print("FizzBuzz", end=" ")
         elif i % 5 == 0:
-            print("Bizz ", end=" ")
+            print("Bizz", end=" ")
         elif i % 3 == 0:
-            print("Fizz ", end=" ")
+            print("Fizz", end=" ")
         else:
-            print("{:d}".format(i), end=" ")
+            print(i, end=" ")
