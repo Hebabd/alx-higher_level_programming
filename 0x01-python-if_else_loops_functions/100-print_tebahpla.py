@@ -9,3 +9,5 @@
             if flg == 1:
                 i = i + 32
                 i = i - 1
+
+                print()
