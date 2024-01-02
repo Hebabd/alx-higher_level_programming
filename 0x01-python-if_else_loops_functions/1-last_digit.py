@@ -3,14 +3,16 @@ import random
 
 number = random.randint(-10000, 10000)
 
-lastdigit = abs (number)% 10
-
+str1 = " and is greater than 5"
+str2 = " and is 0"
+str3 = " and is less than 6 and not 0"
 if number < 0:
-    lastdigit = -lastdigit
-    thestring = "Last digit of {} is {}".format(number, lastdigit)
-    if lastdigit > 5:
-        print(f"{thestring} and is greater than 5")
-    elif lastdigit == 0:
-        print(f"{thestring} and is 0")
-    elif lastdigit < 6:
-        print(f"{thestring} and is less than 6 and not 0")
+    last = number % -10
+else:
+    last = number % 10
+    if last > 5:
+        print("Last digit of {} is {}".format(number, last) + str11)
+    elif last == 0:
+        print("Last digit of {} is {}".format(number, last) + str2)
+    else:
+        print("Last digit of {} is {}".format(number, last) + str3)
