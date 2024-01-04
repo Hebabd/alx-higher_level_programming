@@ -1,8 +1,12 @@
 #!/usr/bin/ython3
-if __name__ == "__main__":
-    """print all hidden directories"""
-    import hidden_4
+import sys
+import hidden_4 as hidden
 
-    for i in dir(hidden_4):
-        if i[:2] != "__":
-            print(i)
+
+if __name__ != "__main__":
+    exit()
+
+
+    for name in dir(hidden):
+        if name[0:2] != "__":
+            print(name)
