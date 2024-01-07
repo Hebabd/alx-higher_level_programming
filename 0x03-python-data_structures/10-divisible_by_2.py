@@ -1,4 +1,6 @@
 #!/usr/bin/pythn3
 def divisible_by_2(my_list=[]):
-    list = [True if x % 2 == 0 else False for x in my_list]
-    return list
+    result = []
+    for num in my_list:
+        result.append(num % 2 == 0)
+    return result
