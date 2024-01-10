@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-def square_matrix_map(matrix_map(matrix=[]):
-        return list(map(lmbd x: list(map(lambda i: i**2, x)), matrix))
+def complex_delete(a_dictionary, value):
+    for k, v in list(a_dictionary.items()):
+        if v is value:
+            a_dictionary.pop(k)
+    return a_dictionary
