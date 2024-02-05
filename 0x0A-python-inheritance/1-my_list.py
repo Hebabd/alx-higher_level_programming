@@ -14,4 +14,4 @@ class MyList(list):
     def print_sorted(self):
         """Methot that sorted a list"""
 
-        print(sorted(list(self)))
+        print(sorted(self))
